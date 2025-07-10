@@ -1,0 +1,14 @@
+{
+  "agents": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com", "company": { "name": "ABC Inc" } },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com", "company": { "name": "XYZ Ltd" } }
+  ],
+  "stats": [
+    { "title": "Calls Received", "value": 500 },
+    { "title": "Verified", "value": 315 },
+    { "title": "Pending", "value": 58 },
+    { "title": "Spam", "value": 47 },
+    { "title": "Consulated", "value": 58 },
+    { "title": "ERX denied", "value": 320 }
+  ]
+}
