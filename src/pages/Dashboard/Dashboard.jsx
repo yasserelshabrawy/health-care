@@ -4,15 +4,18 @@ import Chart from './Chart'
 import TopAgencyTable from './TopAgencyTable'
 import { getStats } from '../../services/statsService';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
+import { getChartData } from '../../services/chartService';
 
 export default function Dashboard() {
     const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState([]);
+    const [data, setData] = useState(null);
 
   useEffect(() => {
-    Promise.all([getStats()])
-      .then(([statsData]) => {
+    Promise.all([getStats(), getChartData()])
+      .then(([statsData , chartData]) => {
         setStats(statsData);
+        setData(chartData);
       })
       .catch((err) => console.error(err))
       .finally(() => setLoading(false));
@@ -23,8 +26,10 @@ export default function Dashboard() {
           <div className=''>
 
       <Systemflow stats={stats} />
-      <Chart />
-      <TopAgencyTable />
+      <div className='grid md:grid md:grid-cols-2 items-center my-4'>
+      <Chart data={data} />
+      <TopAgencyTable  />
+      </div>
           </div>
     </div>
   )

@@ -6,9 +6,18 @@
   "stats": [
     { "title": "Calls Received", "value": 500 },
     { "title": "Verified", "value": 315 },
-    { "title": "Pending", "value": 58 },
+    { "title": "Pending", "value": 69 },
     { "title": "Spam", "value": 47 },
     { "title": "Consulated", "value": 58 },
     { "title": "ERX denied", "value": 320 }
-  ]
+  ],
+"chartData": [
+  { "label": "Sunday", "uncovered": 90, "covered": 130 },
+  { "label": "Monday", "uncovered": 150, "covered": 180 },
+  { "label": "Tuesday", "uncovered": 300, "covered": 320 },
+  { "label": "Wednesday", "uncovered": 170, "covered": 210 },
+  { "label": "Thursday", "uncovered": 140, "covered": 200 },
+  { "label": "Friday", "uncovered": 410, "covered": 550 },
+  { "label": "Saturday", "uncovered": 400, "covered": 500 }
+]
 }
