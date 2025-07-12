@@ -35,7 +35,7 @@ export default function TopAgencyTable({ dataTable }) {
       <div className="card">
         <DataTable
           scrollable
-          scrollHeight="300px"
+          scrollHeight="324px"
           value={dataTable}
           rows={10}
           className="text-sm border-separate border-spacing-0"
