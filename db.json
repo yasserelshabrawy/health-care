@@ -1,8 +1,76 @@
 {
-  "agents": [
-    { "id": 1, "name": "John Doe", "email": "john@example.com", "company": { "name": "ABC Inc" } },
-    { "id": 2, "name": "Jane Smith", "email": "jane@example.com", "company": { "name": "XYZ Ltd" } }
-  ],
+  "topAgents": [
+  {
+    "rank": 1,
+    "agentName": "Quick Med",
+    "callsRouted": 120,
+    "dropData": 4,
+    "insuranceSuccess": 3
+  },
+  {
+    "rank": 2,
+    "agentName": "MediLine Plus",
+    "callsRouted": 98,
+    "dropData": 6,
+    "insuranceSuccess": 4
+  },
+  {
+    "rank": 3,
+    "agentName": "Health First",
+    "callsRouted": 110,
+    "dropData": 5,
+    "insuranceSuccess": 2
+  },
+  {
+    "rank": 4,
+    "agentName": "CareLink",
+    "callsRouted": 85,
+    "dropData": 3,
+    "insuranceSuccess": 1
+  },
+  {
+    "rank": 5,
+    "agentName": "DocTrack",
+    "callsRouted": 150,
+    "dropData": 7,
+    "insuranceSuccess": 6
+  },
+  {
+    "rank": 6,
+    "agentName": "PulseCare",
+    "callsRouted": 102,
+    "dropData": 2,
+    "insuranceSuccess": 3
+  },
+  {
+    "rank": 7,
+    "agentName": "Nova Health",
+    "callsRouted": 95,
+    "dropData": 4,
+    "insuranceSuccess": 2
+  },
+  {
+    "rank": 8,
+    "agentName": "Cure Assist",
+    "callsRouted": 123,
+    "dropData": 3,
+    "insuranceSuccess": 4
+  },
+  {
+    "rank": 9,
+    "agentName": "LifePath",
+    "callsRouted": 108,
+    "dropData": 5,
+    "insuranceSuccess": 3
+  },
+  {
+    "rank": 10,
+    "agentName": "TrustMed",
+    "callsRouted": 90,
+    "dropData": 6,
+    "insuranceSuccess": 2
+  }
+],
   "stats": [
     { "title": "Calls Received", "value": 500 },
     { "title": "Verified", "value": 315 },

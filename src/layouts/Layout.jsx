@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <Sidebar />
       <div className="flex-1 bg-gray-50 min-h-screen">
         <Header />
-        <main className="p-6">
+        <main className="p-3">
           <Outlet />
         </main>
       </div>
